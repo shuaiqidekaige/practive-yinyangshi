@@ -1,0 +1,11 @@
+/*第二背景图片线的公共样式*/
+.line{position: absolute;border: 1px solid #a57c4c;}
+/*标题图片*/
+ .title_box{height: 140px;width: 100%;margin-bottom: 10px;position: relative;top: 50px;opacity: 0;}
+/* 轮播图按钮*/
+.common_btn{width: 42px;height: 82px;position: absolute;top: 50%;margin-top: -41px;cursor: pointer;}
+.common_btn:hover{opacity: 0.7;}
+.commom_click{width: 75px;height: 350px;position: absolute;top: 50%;margin-top: -175px;cursor: pointer;display: none;}
+/*图片的线条*/
+.pic_line{width: 740px;height: 410px;position: absolute;left: 198px;top: 13px;overflow: hidden;}
+.picLine{position: absolute;border: 1px solid wheat;}

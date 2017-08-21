@@ -1,0 +1,44 @@
+/*头部区域*/
+#header{width:100%;height: 55px;background-color: #FBFBFB;position: absolute;z-index:1000;display: none;}
+#header .header{width: 1280px;height: 100%;margin: 0 auto;}
+#header .header .left_header{width: 570px;height: 100%;float: left;position: relative;}
+#header .header .left_header .logo{display: block;width: 150px;height: 100%;background-image:url(../img/logo_b5525b7.png);background-repeat: no-repeat;background-position:left center; float: left;}
+#header .header .left_header .logo_down{width: 420px;height: 100%;float: left;}
+/*左边部分*/
+#header .header .left_header .logo_down .left_logo{width: 100%;height: 100%;background-image: url(../img/5955c817143cfa58c1221105qRmigQwD.jpg);background-repeat: no-repeat;}
+#header .header .left_header .logo_down .common_logo{position: absolute;left: 0;top: 55px;}
+#header .header .left_header .logo_down .hide_logo{display: none;}
+/*右边部分*/
+#header .header .right_header{height: 100%;float: right;}
+#header .header .right_header .menu{height: 100%;}
+#header .header .right_header .menu .menu_li{float: left;text-align: center;line-height: 55px;margin-right: 10px;height: 100%;position: relative;font-size: 12px;}
+#header .header .right_header .menu .menu_li:nth-of-type(4){margin-right: 0;}
+#header .header .right_header .menu .menu_li:nth-of-type(4) .font_color{width: 100px;}
+#header .header .right_header .menu .menu_li .font_color{width:80px;height: 52px;display: block;color: black;}
+#header .header .right_header .menu .menu_li span{display:block;width: 125px;color:#bc2e2e;position: relative;}
+#header .header .right_header .menu .menu_li span:after{content: '';width: 0px;height: 5px;border-left: 5px solid transparent;border-right: 5px solid transparent;border-top: 5px solid #BC2E2E;display: block;position: absolute;top:24px;right:10px;}
+#header .header .right_header .menu .menu_li:hover{background-image:linear-gradient(to bottom,#f5f5f5,#fbfbfb);}
+#header .header .right_header .menu .menu_li:hover .nav_link{color:#bc2e2e;}
+#header .header .right_header .menu .menu_li:hover .border_show{display: block;}
+#header.show{display: block;}
+/*网易游戏目录*/
+.oBox{width: 1280px;position: absolute;left: -1045px;background-color: rgba(255,255,255,.9);display: none;}
+.oBox ul{width: 100%;}
+.oBox ul:after{content: '';display: block;clear: both;}
+.oBox ul .common_style:nth-of-type(1){width: 250px;}
+.oBox ul .common_style:nth-of-type(2){width: 860px;}
+.oBox ul .common_style:nth-of-type(3){width: 170px;border-right: none;}
+.oBox ul .game_menu:nth-of-type(4){width: 250px;}
+.oBox ul .game_menu:nth-of-type(5){width: 170px;}
+.oBox ul .game_menu:nth-of-type(6){width: 690px;}
+.oBox ul .game_menu:nth-of-type(7){width: 170px;}
+.oBox ul .game_menu a{float: left;color:black;font-weight: normal;text-align: center;line-height: 40px;}
+.oBox ul .game_menu a:hover{color: #BC2E2E;}
+.appear{display: block;z-index: 9999999;}
+
+/*导航栏部分下面的效果*/
+.border_show{width: 100%;height: 3px;position: absolute;left: 0;top: 52px;background-color: #bc2e2e;display: none;}
+.animate_demo_zoom{z-index: 100;}
+/*网易游戏目录*/
+.common_style{background-color: rgba(240,240,240,.9);color: #BC2E2E;line-height: 45px;height: 45px;}
+.common_font{text-indent: 20px;float: left;text-align: left;font-weight: bold;font-family: "微软雅黑";font-size: 12px;border-right: 1px solid #eee;box-sizing: border-box;}
